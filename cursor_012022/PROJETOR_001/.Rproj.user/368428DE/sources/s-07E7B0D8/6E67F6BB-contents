@@ -1,0 +1,11 @@
+library(tidyr)
+library(dplyr)
+
+df=read.csv("turma.csv" , sep= ";")
+
+#OPERADOR pip %>% (pode usar com o R básico)
+# o operador pipe vem da librry "magrittr"
+# <dataframe> %>% function (X, <arg1>, <arg2>, ....)
+# df = %>% filter (nome=="Joao")
+# usado para nao ter que escrever o nome da funcao como argumento
+df45= filter (df, nome == )
